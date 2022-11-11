@@ -1,0 +1,150 @@
+.container{
+  position: relative;
+  height: 741px;
+  width: 571px;
+  margin:0 auto;
+  /* background-color: rgb(150, 150, 150); */
+  user-select: none;
+}
+
+.MainImage{
+  /* background-color: aqua; */
+  position: absolute;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+#head{
+  width: 150px;
+  height: 120px;
+  /* background-color: rgb(0, 255, 0); */
+  opacity: 0.5;
+  position: absolute;
+  top: 100px;
+  left: 250px;
+  cursor: pointer;
+}
+#arm1{
+  width: 60px;
+  height: 70px;
+  /* background-color: rgb(0, 255, 234); */
+  opacity: 0.5;
+  position: absolute;
+  top: 390px;
+  left:260px;
+  cursor: pointer;
+  z-index: 10;
+}
+#arm2{
+  width: 70px;
+  height: 80px;
+  /* background-color: rgb(0, 255, 234); */
+  opacity: 0.5;
+  position: absolute;
+  top: 340px;
+  left:340px;
+  cursor: pointer;
+  z-index: 10;
+}
+#tummy{
+  width: 150px;
+  height: 130px;
+  /* background-color: rgb(26, 255, 0); */
+  opacity: 0.5;
+  position: absolute;
+  top: 400px;
+  left:260px;
+  cursor: pointer;
+}
+#ear1{
+  width: 80px;
+  height: 80px;
+  /* background-color: rgb(251, 255, 0); */
+  opacity: 0.5;
+  position: absolute;
+  top: 125px;
+  left:170px;
+  cursor: pointer;
+  z-index: 10;
+}
+#ear2{
+  width: 80px;
+  height: 80px;
+  /* background-color: rgb(251, 255, 0); */
+  opacity: 0.5;
+  position: absolute;
+  top: 50px;
+  left:360px;
+  cursor: pointer;
+  z-index: 10;
+}
+#face1{
+  width: 60px;
+  height: 30px;
+  /* background-color: rgb(0, 255, 0); */
+  opacity: 0.5;
+  position: absolute;
+  top: 280px;
+  left:260px;
+  cursor: pointer;
+}
+#face2{
+  width: 60px;
+  height: 40px;
+  /* background-color: rgb(0, 255, 0); */
+  opacity: 0.5;
+  position: absolute;
+  top: 240px;
+  left:390px;
+  cursor: pointer;
+}
+#ero{
+  width: 80px;
+  height: 50px;
+  /* background-color: rgb(255, 0, 140); */
+  opacity: 0.5;
+  position: absolute;
+  top: 530px;
+  left:270px;
+  cursor: pointer;
+  z-index: 10;
+}
+#foot1{
+  width: 80px;
+  height: 80px;
+  /* background-color: rgb(0, 255, 234); */
+  opacity: 0.5;
+  position: absolute;
+  top: 410px;
+  left:110px;
+  cursor: pointer;
+}
+#foot2{
+  width: 90px;
+  height: 60px;
+  /* background-color: rgb(0, 255, 234); */
+  opacity: 0.5;
+  position: absolute;
+  top: 520px;
+  left:420px;
+  cursor: pointer;
+}
+#tail1{
+  width: 150px;
+  height: 200px;
+  /* background-color: rgb(117, 0, 0); */
+  opacity: 0.5;
+  position: absolute;
+  top: 500px;
+  left:20px;
+  cursor: pointer;
+}
+#tail2{
+  width: 150px;
+  height: 170px;
+  /* background-color: rgb(117, 0, 0); */
+  opacity: 0.5;
+  position: absolute;
+  top: 550px;
+  left:170px;
+  cursor: pointer;
+}
